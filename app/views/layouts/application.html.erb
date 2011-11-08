@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%= stylesheet_link_tag "reset" %>
+  <%= stylesheet_link_tag "style" %>
+  <%= javascript_include_tag "script" %>
+  <%= csrf_meta_tags %>
+	<link rel="stylesheet" href="public/style.css" />
+	<title>ShirtHQ</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
+	<script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+<header>
+	<div class="container top" class="clearfix">
+		<h1><%= image_tag 'logo.png' %></h1>
+		<h2>Custom apparel made simple</h2>
+		<div style="clear:both"></div>
+	</div>
+</header>	
+	
+<%= yield %>
+
+</body>
+</html>
