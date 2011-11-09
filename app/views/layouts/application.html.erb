@@ -11,15 +11,13 @@
 	<script src="script.js" type="text/javascript"></script>
 </head>
 <body>
-<header>
-	<div class="container top" class="clearfix">
+<div class="container">
+	<header class="clearfix">
 		<h1><%= image_tag 'logo.png' %></h1>
 		<h2>Custom apparel made simple</h2>
-		<div style="clear:both"></div>
-	</div>
-</header>	
+	</header>	
 	
-<%= yield %>
-
+	<%= yield %>
+</div>
 </body>
 </html>
