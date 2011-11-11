@@ -1,0 +1,125 @@
+<div class="content" id="payment">
+	<h3>Payment and Shipping</h3>
+	<div class="shipping">
+		<label for="shipping">Shipping method</label>
+		<select name="shipping">
+			<option>?</option>
+			<option>?</option>
+			<option>?</option>
+			<option>?</option>
+		</select>
+		<p class="help">Estimated date for delivery <time>10/20/2011</time></p>
+	</div>
+	<div class="quantity">
+		<p>
+			<label for="end_date">Allow people to order until</label>
+			<input type="text" value="11/11/2011" id="end_date" name="end_date" />
+		</p>
+		<p>
+			<label for="min">Minimum number of shirts</label>
+			<input type="text" name="min" id="min" />
+		</p>
+		<div class="price">
+			<p>Price at quantity: $12 <a class="price_table">(Price Table)</a></p>
+			<p class="help">If more people order, the price will go down</p>
+		</div>
+	</div>
+	<div class="order">
+		<h4>Place the first order</h4>
+		<div class="size">
+			<label for="size">Your size</label>
+			<select name="size">
+				<option>Extra Small</option>
+				<option>Small</option>
+				<option>Medium</option>
+				<option>Large</option>
+				<option>Extra Large</option>
+				<option>XXL</option>
+			</select>
+		</div>
+		<fieldset id="billing" class="form_section">
+			<legend>Billing Information</legend>
+			<div class="field">
+				<label for="email">Email</label>
+				<input type="text" name="email" id="email">
+			</div>
+			<div class="field">
+				<label for="first">First name</label>
+				<input type="text" name="first" id="first">
+			</div>
+			<div class="field">
+				<label for="last">Last name</label>
+				<input type="text" name="last" id="last">
+			</div>
+			<div class="field">
+				<label for="address">Address line 1</label>
+				<input type="text" name="address" id="address">
+			</div>
+			<div class="field">
+				<label for="address">Address line 2</label>
+				<input type="text" name="address" id="address">
+			</div>
+			<div class="field">
+				<label for="city">City</label>
+				<input type="text" name="city" id="city">
+			</div>
+			<div class="field">
+				<label for="state">State</label>
+				<input type="text" name="state" id="state">
+			</div>
+			<div class="field">
+				<label for="zip">Zipcode</label>
+				<input type="text" name="zip" id="zip">
+			</div>
+			<div class="field">
+				<label for="cc_num">Card Number</label>
+				<input type="text" name="cc_num" id="cc_num">
+			</div>
+			<div class="field">
+				<label for="ccv">CCV</label>
+				<input type="text" name="ccv" id="ccv">
+			</div>
+			<div class="field">
+				<label for="first">Expiration</label>
+				<input type="text" name="first" id="first">
+			</div>
+		</fieldset>
+		<fieldset id="shipping" class="form_section">
+			<legend>Shipping Information</legend>
+			<div class="same">
+				<input type="checkbox" name="same" /><label for="same">Same as billing</label>
+			</div>
+			<div class="field">
+				<label for="first">First name</label>
+				<input type="text" name="first" id="first">
+			</div>
+			<div class="field">
+				<label for="last">Last name</label>
+				<input type="text" name="last" id="last">
+			</div>
+			<div class="field">
+				<label for="address">Address line 1</label>
+				<input type="text" name="address" id="address">
+			</div>
+			<div class="field">
+				<label for="address">Address line 2</label>
+				<input type="text" name="address" id="address">
+			</div>
+			<div class="field">
+				<label for="city">City</label>
+				<input type="text" name="city" id="city">
+			</div>
+			<div class="field">
+				<label for="state">State</label>
+				<input type="text" name="state" id="state">
+			</div>
+			<div class="field">
+				<label for="zip">Zipcode</label>
+				<input type="text" name="zip" id="zip">
+			</div>
+		</fieldset>
+		<a href="review-indiv" class="button">Review order &raquo;</a>
+	</div>
+
+	<div style="clear:both"></div>
+</div>

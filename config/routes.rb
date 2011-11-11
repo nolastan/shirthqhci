@@ -5,7 +5,17 @@ Shirthqhci::Application.routes.draw do
   # first created -> highest priority.
 
   # Sample of regular route:
-  #   match 'products/:id' => 'catalog#view'
+  match 'step-2' => 'home#style_color'
+  match 'step-3' => 'home#upload'
+  match 'pay-all' => 'home#pay_all'
+  match 'review-all' => 'home#review_all'
+  match 'status-all' => 'home#status_all'
+  match 'status-indiv' => 'home#status_indiv'
+  match 'review-indiv' => 'home#review_indiv'
+  match 'pay-indiv' => 'home#pay_indiv'
+  match 'order' => 'home#order'
+  match 'next-steps' => 'home#next_steps'
+  
   # Keep in mind you can assign values other than :controller and :action
 
   # Sample of named route:
